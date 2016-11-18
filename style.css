@@ -37,11 +37,11 @@ html{-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-s
 #container_condo{width:100%;float:left;height:Auto}
 .wrapper_condo{width:1210px;margin:0 auto;height:Auto}
 .inner_content{width:1210px;display:inline-block;height:auto}
-#logo{margin-top:20px}
-.outer_div{width:100%;float:left;text-align:center;height:Auto;display:inline;margin-top:110px}
+#logo{margin-top:4px;float:left;}
+.outer_div{width:100%;float:left;text-align:center;height:Auto;display:inline;margin-top:95px}
 header{width:100%;position:fixed;height:Auto;z-index:999999;top:0;left:0;transition:all 1s ease 0;background:#fff}
 .menu_bg{box-shadow:0 1px 4px rgba(23,23,23,.38);transition:all 1s ease 0;opacity:.93;background:#fff}
-ul.navigation{width:auto;float:right;height:Auto;margin-top:53px;position:relative;margin-bottom:20px}
+ul.navigation{width:auto;float:right;height:Auto;margin-top:50px;position:relative;margin-bottom:10px}
 ul.navigation li{float:left}
 ul.navigation li a{float:left;font:16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;text-decoration:none;color:#6a6f68;display:inline}
 ul.navigation li a:hover{color:#1385bc}
@@ -60,18 +60,19 @@ ul.social_links li{float:left;margin-left:10px;display:inline}
 .right_fields input[type="submit"]{background:#4c504c!important}
 .right_fields input[type="submit"]:hover{background:#3f433f!important}
 .address{width:100%;text-align:center;padding:20px 0;text-transform:uppercase;font:24px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#fff;position:absolute;bottom:-1px;z-index:99999;background:rgba(16,12,12,.79)}
-.full_address p{font:20px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#231f20;width:100%;text-align:justify;margin:20px 0;float:left}
+.full_address p{font:20px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c;width:100%;text-align:justify;margin:20px 0;float:left}
 .listing{width:100%;float:left;height:auto;border:1px solid #231f20;height:275px}
-.full_form{width:100%;float:left;height:Auto;  padding: 39px 50px 25px;box-sizing:border-box;margin:30px 0}
-.full_form h2{font:700 25px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c !important;width:100%;text-transform:uppercase;color:#0076a3;}
-.full_form form{width:100%;float:left;margin-top:50px;display:inline}
-.left_fields{width:50%;float:left}
-.full_form form input{height:50px;float:left;width:100%;margin-bottom:20px;border-radius:1px;text-transform:uppercase;border:solid 1px #999;font:700 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#231f20;box-sizing:border-box;padding-left:20px;background:#fff;}
-.right_fields{width:48%;float:right;display:inline}
-.right_fields textarea{width:100%;border-radius:1px;text-transform:uppercase;padding-top:10px;height:120px;resize:none;border:solid 1px #999;font:700 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#231f20;box-sizing:border-box;padding-left:20px;background:#fff;}
+.full_form{width:100%;float:left;height:Auto;  padding:20px 50px;box-sizing:border-box;margin:20px 0 0 0;background:none !important;}
+.full_form h2{font:700 25px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c !important;width:100%;text-transform:uppercase;color:#0076a3;text-align:center;}
+.full_form form{width:100%;float:left;margin-top:25px;display:inline}
+.left_fields{width:100%;float:left}
+.full_form form input{height:43px;float:left;width:32%;margin-bottom:20px;border-radius:1px;text-transform:uppercase;border:solid 1px #4c504c;font:400 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c;box-sizing:border-box;padding-left:20px;background:#fff;margin:0 2% 14px 0;}
+.full_form form .left_fields div:last-of-type input,.full_form form input[type="submit"] {margin-right:0;}
+.right_fields{width:100%;float:right;display:inline}
+.right_fields textarea{width:66%; float:left; border-radius:1px;text-transform:uppercase;padding-top:10px;height:43px;resize:none;border:solid 1px #4c504c;font:400 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c;box-sizing:border-box;padding-left:20px;background:#fff;margin-right:2%;}
 .right_fields input{border:none!important;font:700 25px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif!important;color:#fff!important;letter-spacing:5px;margin-top:20px;background:#0076a3!important}
 .left_content{width:869px;float:left;height:auto;display:inline}
-.left_content iframe{width:100%;height:489px;border:1px solid #231f20;margin-bottom:20px}
+.left_content iframe{width:100%;height:466px;border:1px solid #231f20;margin-bottom:20px}
 .right_content{width:320px;float:right;display:inline}
 .right_content a{border:1px solid #231f20;width:99.5%;float:left;display:inline;margin-bottom:20px}
 .right_content a img{width:100%;height:auto}
@@ -82,10 +83,10 @@ ul.social_links li{float:left;margin-left:10px;display:inline}
 .information h3{text-align:center}
 .information h2 span{text-align:center;width:100%;font:26px/30px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#000}
 .information p{text-align:center;width:100%;font:20px/24px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#040503}
-.add{width:100%;float:left;text-align:center;font:14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#040503}
-.add a{text-align:center;font:14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#040503;display:inline-block;float:none;margin-right:4px}
+.add{width:100%;float:left;text-align:center;font:14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c}
+.add a{text-align:center;font:14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#4c504c;display:inline-block;float:none;margin-right:4px}
 .information img{text-align:center;margin-top:10px}
-footer{width:100%;float:left;height:Auto;display:inline;padding:10px 10px 25px;box-sizing:border-box;margin-top:25px;text-align:center;background:#000}
+footer{width:100%;float:left;height:Auto;display:inline;padding:10px 10px 25px;box-sizing:border-box;margin-top:25px;text-align:center;background:#4C504C;}
 footer span{text-align:center;width:100%;display:inline-block;font:13px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#ecf8ef}
 footer img{text-align:center;margin:20px 0}
 footer p{text-align:center;width:auto;font:10px/16px Century Gothic,CenturyGothic,AppleGothic,sans-serif;color:#ecf8ef;padding:0 55px}
@@ -113,12 +114,12 @@ p.privacypara,.fullwidth_blk>p u{font:15px/20px Century Gothic,CenturyGothic,App
 .mrp-listing-showcase-band-attribution{top:230px!important;height:20px!important}
 .mrp-listing-showcase-band-price{height:18px!important;top:250px!important}
 .testimonials li{width:100%!important;float:left}
-.fb_iframe_widget{position:absolute!important;right:0!important;top:-43px!important}
+.fb_iframe_widget{position:absolute!important;right:0!important;top:-30px!important}
 .error{color:red}
 .message{text-align:center;height:auto;    color: #0076a3;
     margin-top: -20px;
-    margin-bottom: 18px;}/* 24-MAY-CHANGES */  .contact_info_full{ display: inline;    float: left;    height: auto;   margin-bottom: 0;    margin-top: 25px;    position: relative;  width: 100%;}  .contact_info_full h1{   color: #004d6d;    font: 700 26px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    text-transform: uppercase;    width: 100%;text-align:center;}  .contact_info_full span{  color: #231f20;    float: left;    font: 18px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    margin: 20px 0;    text-align: center;    width: 100%}.left_contact_info_form{width:869px;float:left;height:auto;}  .contact_info_full form{ display: inline;    float: left;    margin-top: 15px;    width: 100%;}  .contact_info_full form input{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;    border: 1px solid #999;    border-radius: 1px;    box-sizing: border-box;    color: #231f20;    float: left;    font: 700 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    height: 50px;    margin-bottom: 20px;    padding-left: 20px;    text-transform: uppercase;    width: 100%;}   .contact_info_full form textarea{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;    border: 1px solid #999;    border-radius: 1px;    box-sizing: border-box;    color: #231f20;    font: 700 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    height: 182px;    padding-left: 20px;    padding-top: 10px;    resize: none;    text-transform: uppercase;   width: 100%;}   .contact_info_full form input:last-of-type{ background: #4c504c none repeat scroll 0 0 !important;    border: medium none !important;    color: #fff !important;    font: 700 25px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;    letter-spacing: 5px;padding-left:0px !important;   margin-top: 20px; width:50%;float:right;}   .contact_info_full form input:last-of-type:hover{background-color:#3f433f!important;}.right_contact_infoo{width:320px;float:right;}.right_contact_infoo h1{ color: #004d6d;    font: 700 26px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    text-transform: uppercase;margin-top:20px;    width: 100%;text-align:center;}.right_contact_infoo span{ color: #040503;    font: 14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;    margin-bottom: 20px;    margin-top: 10px !important;    text-align: center;    width: 100%;}		footer span:last-of-type{margin-top:20px;}				.right_contact_infoo > img{   border: 1px solid #231f20;display:inline-block;}					.centerr{width:100%;text-align:center;float:left;}		.centerr img{float:none;display:inline-block;}			.centerr a{float:none;display:inline-block;}#gmap_display {
-    height: 282px !important;
+    margin-bottom: 18px;}/* 24-MAY-CHANGES */  .contact_info_full{ display: inline;    float: left;    height: auto;   margin-bottom: 0;    margin-top: 25px;    position: relative;  width: 100%;}  .contact_info_full h1{   color: #004d6d;    font: 700 26px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    text-transform: uppercase;    width: 100%;text-align:center;}  .contact_info_full span{  color: #4c504c;   float: left;    font: 18px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    margin: 20px 0;    text-align: center;    width: 100%}.left_contact_info_form{width:869px;float:left;height:auto;}  .contact_info_full form{ display: inline;    float: left;    margin-top: 15px;    width: 100%;}  .contact_info_full form input{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;    border: 1px solid #4c504c;    border-radius: 1px;    box-sizing: border-box;    color: #4c504c;    float: left;    font: 400 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    height: 50px;    margin-bottom: 20px;    padding-left: 20px;    text-transform: uppercase;    width: 100%;}   .contact_info_full form textarea{ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;    border: 1px solid #4c504c;    border-radius: 1px;    box-sizing: border-box;    color: #4c504c;    font: 400 16px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    height: 182px;    padding-left: 20px;    padding-top: 10px;    resize: none;    text-transform: uppercase;   width: 100%;}   .contact_info_full form input:last-of-type{ background: #4c504c none repeat scroll 0 0 !important;    border: medium none !important;    color: #fff !important;    font: 700 25px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;    letter-spacing: 5px;padding-left:0px !important;   margin-top: 20px; width:50%;float:right;}   .contact_info_full form input:last-of-type:hover{background-color:#3f433f!important;}.right_contact_infoo{width:320px;float:right;}.right_contact_infoo h1{ color: #4c504c;    font: 700 26px/25px Century Gothic,CenturyGothic,AppleGothic,sans-serif;    text-transform: uppercase;margin-top:20px;    width: 100%;text-align:center;}.right_contact_infoo span{ color: #4c504c;    font: 14px/20px Century Gothic,CenturyGothic,AppleGothic,sans-serif !important;    margin-bottom: 20px;    margin-top: 10px !important;    text-align: center;    width: 100%;}		footer span:last-of-type{margin-top:20px;}				.right_contact_infoo > img{   border: 1px solid #231f20;display:inline-block;}					.centerr{width:100%;text-align:center;float:left;}		.centerr img{float:none;display:inline-block;}			.centerr a{float:none;display:inline-block;}#gmap_display {
+    height:467px !important;
 }
 /***06 july****/
 #message2{   text-align: center;
